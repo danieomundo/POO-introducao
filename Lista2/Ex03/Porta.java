@@ -36,5 +36,12 @@ public class Porta {
         System.out.println("Altura: "+h);
         System.out.println("Largura:"+l);
     }
-        
+    
+    public void estadoPorta(){
+        if (statusPorta == true) {
+            System.out.println("Porta esta ABERTA!");
+        } else {
+            System.out.println("Porta esta FECHADA");  
+        }
+    }        
 }
