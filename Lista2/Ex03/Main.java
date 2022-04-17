@@ -1,3 +1,12 @@
+/*
+
+ENUNCIADO:
+
+Crie uma porta, abra e feche a mesma, pinte-a de diversas cores, altere suas dimensões 
+e use o método estaAberta para verificar se ela está aberta.
+
+*/
+
 public class Main {
     
     public static void main(String[] args) {
@@ -10,6 +19,9 @@ public class Main {
         porta.fechaPorta();
         porta.estaFechada();
         
+        porta.abrePorta();
+        porta.estaAberta();
+        
         porta.pintaPorta("Azul");
         porta.pintaPorta("Amarelo");
         porta.pintaPorta("Verde");
@@ -17,7 +29,10 @@ public class Main {
         porta.coresPorta();
                 
         porta.dimensaoPorta(50, 80);
-            
+        
+        porta.fechaPorta();
+        porta.estadoPorta();
+        
     }
           
 }
