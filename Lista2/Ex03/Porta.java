@@ -10,21 +10,21 @@ public class Porta {
     }
     
     public void estaAberta(){
-        System.out.println("Porta aberta");
+        System.out.println("Porta aberta.");
         statusPorta = true;
     }
     
     public void fechaPorta(){
-        System.out.println("Fechando a porta....");             
+        System.out.println("Fechando a porta...");             
     }
     
     public void estaFechada(){
-        System.out.println("Porta fechada");
+        System.out.println("Porta fechada.");
         statusPorta = false;
     }
     
     public void pintaPorta(String cor){
-        System.out.println("Pintando a porta....");
+        System.out.println("Pintando a porta...");
         coresPorta.add(cor);
     }
     
@@ -39,9 +39,9 @@ public class Porta {
     
     public void estadoPorta(){
         if (statusPorta == true) {
-            System.out.println("Porta esta ABERTA!");
+            System.out.println("Status da porta: Aberta.");
         } else {
-            System.out.println("Porta esta FECHADA");  
+            System.out.println("Status da porta: Fechada.");  
         }
     }        
 }
