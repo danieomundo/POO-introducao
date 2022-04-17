@@ -1,3 +1,12 @@
+/*
+
+ENUNCIADO:
+
+Crie uma pessoa, coloque seu nome e idade iniciais, faça alguns aniversários 
+(aumentando a idade) e imprima seu nome e sua idade.
+
+*/
+
 public class Main {
     
     public static void main(String[] args) {
