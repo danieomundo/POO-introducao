@@ -34,7 +34,7 @@ public class Main {
          
          casa.imprimeCoresCasa();
          //casa.quantasPortasEstaoAbertas();
-         //consertar o metodo
+         //consertar o metodo... tem q mostrar 3 portas abertas
      }
        
 }
