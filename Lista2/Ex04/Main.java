@@ -14,9 +14,15 @@ public class Main {
      public static void main(String[] args) {
      
          Casa casa = new Casa();
+         System.out.println("Casa criada.");
          
          casa.pintaCasa("Rosa");
          casa.pintaCasa("Roxo");
+         int count = 1;
+         for (String corDaCasa : casa.coresCasa){
+             System.out.println("A cor pintada na " + count + "a vez foi: " + corDaCasa);
+             count++;
+         }
          
          Porta porta1 = new Porta();
          Porta porta2 = new Porta();
@@ -27,14 +33,17 @@ public class Main {
          casa.addPorta(porta3);
          
          porta1.abrePorta();
+         System.out.println("Porta 1 foi aberta.");
          porta2.abrePorta();
+         System.out.println("Porta 2 foi aberta.");
          porta2.fechaPorta();
+         System.out.println("A porta 2 foi fechada.");
          porta2.abrePorta();
+         System.out.println("A porta 2 foi aberta.");
          porta3.abrePorta();
+         System.out.println("A porta 3 foi aberta.");
          
-         casa.imprimeCoresCasa();
-         //casa.quantasPortasEstaoAbertas();
-         //consertar o metodo... tem q mostrar 3 portas abertas
+         casa.quantasPortasEstaoAbertas();
      }
        
 }
