@@ -24,9 +24,9 @@ public class Pedido {
         float totalAPagar = 0;
         
         for (Item item : itens) {
-            System.out.println("Nome do item: " + item.nome);
-            System.out.println("Preco do item: "+ item.preco);
-            System.out.println("Quantidade do item: "+ item.quantidade);
+            System.out.println("Produto: " + item.nome);
+            System.out.println("Preco: "+ item.preco);
+            System.out.println("Qtd.: "+ item.quantidade);
             float subTotalAtual = getSubTotal(item);
             System.out.println("Subtotal do item: "+ subTotalAtual);
             totalAPagar += getSubTotal(item);
